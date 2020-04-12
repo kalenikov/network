@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40070d2d-80b0-49eb-bd6c-3ca3b8226d6d" name="Default Changelist" comment="">
+    <list default="true" id="40070d2d-80b0-49eb-bd6c-3ca3b8226d6d" name="Default Changelist" comment="redux">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StoreContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +43,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux/dialogs-reducer.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="es6.move.members.recent.items">
       <recent name="C:\temp\js\network\src\redux\dialogs-reducer.js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\temp\js\network\src\components\Dialogs" />
+      <recent name="C:\temp\js\network\src\components\Profile\MyPosts" />
       <recent name="C:\temp\js\network\src\redux" />
     </key>
   </component>
@@ -79,7 +97,8 @@
       <workItem from="1586506326924" duration="5653000" />
       <workItem from="1586516185587" duration="2000" />
       <workItem from="1586523083946" duration="7224000" />
-      <workItem from="1586594979539" duration="3025000" />
+      <workItem from="1586594979539" duration="4491000" />
+      <workItem from="1586673158808" duration="9767000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586513876166</created>
@@ -95,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586597278271</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="redux">
+      <created>1586611611834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586611611834</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,10 +145,10 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="514" y="187" key="#start/0.30.1600.870@0.30.1600.870" timestamp="1586499860443" />
-    <state x="376" y="64" key="CommitChangelistDialog2" timestamp="1586597276482">
+    <state x="376" y="64" key="CommitChangelistDialog2" timestamp="1586611825084">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="376" y="64" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1586597276482" />
+    <state x="376" y="64" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1586611825084" />
     <state width="540" height="466" key="DebuggerActiveHint" timestamp="1586507550355">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
@@ -131,22 +157,22 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="412" y="216" key="FileChooserDialogImpl/0.30.1600.870@0.30.1600.870" timestamp="1586596966229" />
-    <state width="1559" height="226" key="GridCell.Tab.0.bottom" timestamp="1586611586365">
+    <state width="1580" height="226" key="GridCell.Tab.0.bottom" timestamp="1586700584094">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state width="1559" height="226" key="GridCell.Tab.0.bottom/0.30.1600.870@0.30.1600.870" timestamp="1586611586365" />
-    <state width="1559" height="226" key="GridCell.Tab.0.center" timestamp="1586611586364">
+    <state width="1580" height="226" key="GridCell.Tab.0.bottom/0.30.1600.870@0.30.1600.870" timestamp="1586700584094" />
+    <state width="1580" height="226" key="GridCell.Tab.0.center" timestamp="1586700584094">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state width="1559" height="226" key="GridCell.Tab.0.center/0.30.1600.870@0.30.1600.870" timestamp="1586611586364" />
-    <state width="1559" height="226" key="GridCell.Tab.0.left" timestamp="1586611586363">
+    <state width="1580" height="226" key="GridCell.Tab.0.center/0.30.1600.870@0.30.1600.870" timestamp="1586700584094" />
+    <state width="1580" height="226" key="GridCell.Tab.0.left" timestamp="1586700584093">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state width="1559" height="226" key="GridCell.Tab.0.left/0.30.1600.870@0.30.1600.870" timestamp="1586611586363" />
-    <state width="1559" height="226" key="GridCell.Tab.0.right" timestamp="1586611586364">
+    <state width="1580" height="226" key="GridCell.Tab.0.left/0.30.1600.870@0.30.1600.870" timestamp="1586700584093" />
+    <state width="1580" height="226" key="GridCell.Tab.0.right" timestamp="1586700584094">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state width="1559" height="226" key="GridCell.Tab.0.right/0.30.1600.870@0.30.1600.870" timestamp="1586611586364" />
+    <state width="1580" height="226" key="GridCell.Tab.0.right/0.30.1600.870@0.30.1600.870" timestamp="1586700584094" />
     <state width="1580" height="280" key="GridCell.Tab.1.bottom" timestamp="1586516182506">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
@@ -179,18 +205,22 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state width="1580" height="280" key="GridCell.Tab.2.right/0.30.1600.870@0.30.1600.870" timestamp="1586516182506" />
-    <state x="333" y="111" key="SettingsEditor" timestamp="1586513298074">
+    <state x="333" y="111" key="SettingsEditor" timestamp="1586611982120">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="333" y="111" key="SettingsEditor/0.30.1600.870@0.30.1600.870" timestamp="1586513298074" />
-    <state width="498" height="445" key="SwitcherDM" timestamp="1586525503364">
+    <state x="333" y="111" key="SettingsEditor/0.30.1600.870@0.30.1600.870" timestamp="1586611982120" />
+    <state width="498" height="445" key="SwitcherDM" timestamp="1586681831031">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state width="498" height="445" key="SwitcherDM/0.30.1600.870@0.30.1600.870" timestamp="1586525503364" />
+    <state width="498" height="445" key="SwitcherDM/0.30.1600.870@0.30.1600.870" timestamp="1586681831031" />
     <state x="392" y="201" key="Vcs.Push.Dialog.v2" timestamp="1586513886124">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="392" y="201" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1586513886124" />
+    <state x="92" y="122" width="1416" height="686" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586681647199">
+      <screen x="0" y="30" width="1600" height="870" />
+    </state>
+    <state x="92" y="122" width="1416" height="686" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.30.1600.870@0.30.1600.870" timestamp="1586681647199" />
     <state x="108" y="200" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586501881798">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
@@ -199,6 +229,10 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="480" y="228" width="640" height="474" key="find.popup/0.30.1600.870@0.30.1600.870" timestamp="1586597009845" />
+    <state x="456" y="213" key="run.anything.popup" timestamp="1586699573030">
+      <screen x="0" y="30" width="1600" height="870" />
+    </state>
+    <state x="456" y="213" key="run.anything.popup/0.30.1600.870@0.30.1600.870" timestamp="1586699573030" />
     <state x="463" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1586595274830">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
@@ -206,13 +240,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Profile/Profile.jsx</url>
-          <line>9</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
           <selected-grouping-rules>
