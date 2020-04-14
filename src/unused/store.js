@@ -1,6 +1,6 @@
-import dialogsReducer from './dialogs-reducer'
-import sidebarReducer from './sidebar-reducer'
-import profileReducer from './profile-reducer'
+import dialogsReducer from '../redux/dialogs-reducer'
+import sidebarReducer from '../redux/sidebar-reducer'
+import profileReducer from '../redux/profile-reducer'
 
 
 let store = {
@@ -50,5 +50,30 @@ let store = {
 }
 
 
+// props.setUsers([
+//     {
+//         id: 1,
+//         photoUrl: 'https://media.moddb.com/images/members/5/4162/4161743/ao_11111.jpg',
+//         followed: false,
+//         fullName: 'Dmitry',
+//         status: 'ON-LINE',
+//         location: {sity: 'MINSK', country: 'RU'}
+//     },
+//     {
+//         id: 2,
+//         photoUrl: 'https://media.moddb.com/images/members/5/4162/4161743/ao_11111.jpg',
+//         followed: true,
+//         fullName: 'Sasha',
+//         status: 'ON-LINE',
+//         location: {sity: 'MINSK', country: 'RU'}
+//     },
+//     {
+//         id: 3,
+//         photoUrl: 'https://media.moddb.com/images/members/5/4162/4161743/ao_11111.jpg',
+//         followed: false,
+//         fullName: 'Andrew',
+//         status: 'ON-LINE',
+//         location: {sity: 'MINSK', country: 'RU'}
+//     }])
 
 export default store

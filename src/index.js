@@ -3,10 +3,10 @@ import * as serviceWorker from './serviceWorker';
 import store from "./redux/redux-store";
 import ReactDOM from "react-dom";
 import App from "./App";
-import StoreContext, {Provider} from './StoreContext'
 import {BrowserRouter} from 'react-router-dom'
+import {Provider} from 'react-redux'
 
-export let renderEntreeTree = (state) => {
+export let renderEntreeTree = () => {
 
     ReactDOM.render(
         <BrowserRouter>
@@ -19,8 +19,6 @@ export let renderEntreeTree = (state) => {
 
 }
 
-renderEntreeTree(store.getState())
-
-store.subscribe(() => renderEntreeTree(store.getState()))
+renderEntreeTree()
 
 serviceWorker.unregister();
