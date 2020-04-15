@@ -1,27 +1,33 @@
 import React from 'react';
 import style from './Users.module.css'
-import * as axios from 'axios'
 import userPhoto from '../../assets/images/user.jpg'
+import {NavLink} from 'react-router-dom'
 
 let Users = props => {
 
-    let getUsers = () => {
-        if (props.users.length === 0) {
-
-            const url = 'https://social-network.samuraijs.com/api/1.0/users'
-
-            axios.get(url).then(response => {
-                props.setUsers(response.data.items)
-            })
-        }
+    let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize)
+    let pages = []
+    for (let i = 1; i <= pagesCount; i++) {
+        pages.push(i)
     }
+
     return <div>
-        <button onClick={getUsers}>Get users</button>
-        {props.users.map(user => <div id={user.id}>
+        <div>
+            {pages.map(i => {
+                return <span className={props.currentPage === i && style.selectedPage}
+                             onClick={() => props.onPageChanged(i)}>{i}</span>
+            })}
+            <div>current page {props.currentPage}</div>
+            <div>totalUsersCount {props.totalUsersCount}</div>
+        </div>
+        {props.users.map(user => <div id={user.id} key={user.id}>
             <span>
                 <div>
-                    <img src={user.photos.small == null ? userPhoto : user.photos.small} className={style.userPhoto}/>
-                </div>
+                    <NavLink to={'/profile/'+user.id}>
+                        <img src={user.photos.small == null ? userPhoto : user.photos.small}
+                             className={style.userPhoto}/>
+                    </NavLink>
+                    </div>
                 <div>
                     {user.followed
                         ? <button onClick={() => props.unfollow(user.id)}>Unfollow</button>
