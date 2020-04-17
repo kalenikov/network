@@ -20,8 +20,22 @@ export const UsersAPI = {
         return instance.delete(url)
     },
     getProfile(userId) {
+        return profileAPI.getProfile(userId)
+    }
+}
+
+export const profileAPI = {
+    getProfile(userId) {
         const url = `profile/${userId}`
         return instance.get(url)
+    },
+    getStatus(userId) {
+        const url = `profile/status/${userId}`
+        return instance.get(url)
+    },
+    updateStatus(status) {
+        const url = `profile/status/`
+        return instance.put(url, {status})
     }
 
 }
