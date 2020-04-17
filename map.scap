@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="3D1D784B-448E-4CB4-8F85-2F800CF7AACB" Version="1.1">
+   <Notes>
+      <Note Width="100.623" FontSize="14" ID="3" Position="89.1,52.0" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes" Italic="Yes">15,11</FormatRange>
+         </Formatting>
+         <String>redux-store.js
+createStore</String>
+         <ConnectedNoteIDs>7</ConnectedNoteIDs>
+         <PointsToNoteIDs>7</PointsToNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="14" ID="4" Position="157.8,179.3" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>auth-reducer.js</String>
+         <ConnectedNoteIDs>7, 9</ConnectedNoteIDs>
+         <PointsToNoteIDs>9</PointsToNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="14" ID="0" Position="153.1,277.0" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>profile-reducer.js</String>
+         <ConnectedNoteIDs>7</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="14" ID="5" Position="158.6,229.3" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>dialogs-reducer.js</String>
+         <ConnectedNoteIDs>7</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="14" ID="6" Position="152.3,317.6" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>users-reducer.js</String>
+         <ConnectedNoteIDs>7</ConnectedNoteIDs>
+      </Note>
+      <Note Width="137.573" FontSize="14" ID="7" Position="102.3,122.7" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Italic="Yes">0,15</FormatRange>
+         </Formatting>
+         <String>combineReducers</String>
+         <ConnectedNoteIDs>0, 3-6</ConnectedNoteIDs>
+         <PointsToNoteIDs>0, 4-6</PointsToNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="14" ID="8" Position="447.7,79.3" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>initialState</String>
+         <ConnectedNoteIDs>9, 11</ConnectedNoteIDs>
+         <PointsToNoteIDs>11</PointsToNoteIDs>
+      </Note>
+      <Note Width="171.094" FontSize="14" ID="9" Position="442.2,41.8" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,6</FormatRange>
+         </Formatting>
+         <String>const ACTION_NAME</String>
+         <ConnectedNoteIDs>4, 8</ConnectedNoteIDs>
+         <PointsToNoteIDs>8</PointsToNoteIDs>
+      </Note>
+      <Note Width="306.25" FontSize="14" ID="11" Position="440.6,121.5" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Italic="Yes">0,12</FormatRange>
+            <FormatRange Bold="Yes">45,7</FormatRange>
+            <FormatRange Bold="Yes">60,4</FormatRange>
+         </Formatting>
+         <String>authReducer = (state = initialState, action)
+switch (action.type)</String>
+         <ConnectedNoteIDs>8, 10</ConnectedNoteIDs>
+         <PointsToNoteIDs>10</PointsToNoteIDs>
+      </Note>
+      <Note Width="410.547" FontSize="14" ID="12" Position="435.5,328.1" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">6,6</FormatRange>
+            <FormatRange Italic="Yes">12,38</FormatRange>
+            <FormatRange Italic="Yes">51,23</FormatRange>
+            <FormatRange Italic="Yes">75,23</FormatRange>
+            <FormatRange Italic="Yes">99,1</FormatRange>
+         </Formatting>
+         <String>санки
+const setAuthUserData = () => (dispatch)=> {
+dispatch(ACTION_NAME1),
+dispatch(ACTION_NAME2),
+}</String>
+         <ConnectedNoteIDs>10</ConnectedNoteIDs>
+      </Note>
+      <Note Width="439.844" FontSize="14" ID="10" Position="433.6,199.2" Level="1" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">7,6</FormatRange>
+            <FormatRange Italic="Yes">13,36</FormatRange>
+            <FormatRange Italic="Yes">50,1</FormatRange>
+            <FormatRange Bold="Yes" Italic="Yes">51,4</FormatRange>
+            <FormatRange Italic="Yes">55,15</FormatRange>
+            <FormatRange Bold="Yes" Italic="Yes">70,7</FormatRange>
+            <FormatRange Italic="Yes">77,1</FormatRange>
+            <FormatRange Italic="Yes">79,61</FormatRange>
+         </Formatting>
+         <String>экшены
+const doSomethingActinCreator = payload =>
+{type: ACTION_NAME, payload}
+(параметры будут использованы в редусере для изменения state)</String>
+         <ConnectedNoteIDs>11-12</ConnectedNoteIDs>
+         <PointsToNoteIDs>12</PointsToNoteIDs>
+      </Note>
+      <Note Width="86.9141" FontSize="14" ID="14" Position="789.6,20.3" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>REDUCER</String>
+         <ConnectedNoteIDs>37</ConnectedNoteIDs>
+      </Note>
+      <Note Width="101.392" FontSize="14" ID="15" Position="1290.0,418.8" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>CONTAINER</String>
+         <ConnectedNoteIDs>36-37</ConnectedNoteIDs>
+         <PointsToNoteIDs>37</PointsToNoteIDs>
+      </Note>
+      <Note Width="62.6343" FontSize="14" ID="16" Position="276.5,23.4" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>STORE</String>
+      </Note>
+      <Note Width="22.998" FontSize="14" ID="18" Position="977.1,510.2" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,2</FormatRange>
+         </Formatting>
+         <String>UI</String>
+         <ConnectedNoteIDs>31, 36</ConnectedNoteIDs>
+         <PointsToNoteIDs>36</PointsToNoteIDs>
+      </Note>
+      <Note Width="131.348" FontSize="14" ID="19" Position="966.7,58.1" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>mapStateToProps</String>
+      </Note>
+      <Note Width="155.298" FontSize="14" ID="20" Position="950.7,216.9" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>mapDispatchToProps</String>
+      </Note>
+      <Note Width="61.3281" FontSize="14" ID="21" Position="954.4,360.3" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>connect</String>
+      </Note>
+      <Note Width="311.111" FontSize="14" ID="22" Position="1014.4,94.7" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>передать часть нужную часть state в UI</String>
+      </Note>
+      <Note Width="311.111" FontSize="14" ID="23" Position="1013.0,250.2" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>передать колбэки в UI</String>
+      </Note>
+      <Note Width="307.778" FontSize="14" ID="24" Position="1042.2,131.4" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>return {
+ cut_state: state.statePage.stateProp}</String>
+      </Note>
+      <Note Width="357.56" FontSize="14" ID="25" Position="1013.6,284.6" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Italic="Yes">32,26</FormatRange>
+         </Formatting>
+         <String>return {
+ do_it: () => dispatch(doSomethingActinCreator())</String>
+      </Note>
+      <Note Width="62.793" FontSize="14" ID="27" Position="802.2,507.0" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,6</FormatRange>
+         </Formatting>
+         <String>APP.JS</String>
+         <ConnectedNoteIDs>31-32</ConnectedNoteIDs>
+         <PointsToNoteIDs>31</PointsToNoteIDs>
+      </Note>
+      <Note Width="109.68" FontSize="14" ID="28" Position="719.1,577.9" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>&lt;Container1 /></String>
+      </Note>
+      <Note Width="109.68" FontSize="14" ID="29" Position="718.4,617.1" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>&lt;Container2 /></String>
+      </Note>
+      <Note Width="109.68" FontSize="14" ID="30" Position="716.2,654.9" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>&lt;Container3 /></String>
+      </Note>
+      <Note Width="101.392" FontSize="14" ID="31" Position="935.0,420.8" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>CONTAINER</String>
+         <ConnectedNoteIDs>18, 27</ConnectedNoteIDs>
+         <PointsToNoteIDs>18</PointsToNoteIDs>
+      </Note>
+      <Note Width="80.1758" FontSize="14" ID="32" Position="422.9,513.3" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,8</FormatRange>
+         </Formatting>
+         <String>INDEX.JS</String>
+         <ConnectedNoteIDs>27</ConnectedNoteIDs>
+         <PointsToNoteIDs>27</PointsToNoteIDs>
+      </Note>
+      <Note Width="185.417" FontSize="14" ID="33" Position="429.2,573.7" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>&lt;Provider store={store}></String>
+      </Note>
+      <Note Width="61.8042" FontSize="14" ID="34" Position="489.2,607.2" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>&lt;App /></String>
+      </Note>
+      <Note Width="83.5449" FontSize="14" ID="35" Position="1070.8,651.8" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>props.state</String>
+      </Note>
+      <Note Width="105.798" FontSize="14" ID="36" Position="1048.1,614.4" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>props.callback</String>
+         <ConnectedNoteIDs>15, 18</ConnectedNoteIDs>
+         <PointsToNoteIDs>15</PointsToNoteIDs>
+      </Note>
+      <Note Width="101.392" FontSize="14" ID="37" Position="1292.3,20.7" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>CONTAINER</String>
+         <ConnectedNoteIDs>14-15</ConnectedNoteIDs>
+         <PointsToNoteIDs>14</PointsToNoteIDs>
+      </Note>
+      <Note Width="261.458" FontSize="14" ID="38" Position="1028.1,368.5" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <String>обновлять DOM если изменилось что-то из нужной части стейта</String>
+      </Note>
+   </Notes>
+   <BackgroundShapes>
+      <Shape Width="275" Faded="No" Height="434.045" Sticky="Yes" ID="1" Position="76.6,14.8" Shadow="No">
+         <Appearance>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+      </Shape>
+      <Shape Width="472.656" Faded="No" Height="440.955" Sticky="No" ID="2" Position="416.4,10.2" Shadow="No">
+         <Appearance>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+      </Shape>
+      <Shape Width="472.656" Faded="No" Height="437.83" Sticky="Yes" ID="13" Position="928.5,13.3" Shadow="No">
+         <Appearance>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+      </Shape>
+      <Shape Width="472.656" Faded="No" Height="437.83" Sticky="No" ID="17" Position="923.3,498.2" Shadow="No">
+         <Appearance>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+      </Shape>
+      <Shape Width="472.656" Faded="No" Height="437.83" Sticky="No" ID="26" Position="405.6,501.2" Shadow="No">
+         <Appearance>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+      </Shape>
+   </BackgroundShapes>
+   <NoteStyles>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Pink Bubble" ID="5055E26E-21DB-46D1-B2DA-16AC7E8166E3" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Red Text" ID="804FD517-2140-412B-879A-D6A1FADB4718" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Yellow Bubble" ID="EC3CF212-C08C-49E0-814D-8D9CE24DB123" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Brown Bubble" ID="1E6ACC4F-3782-4491-AFE1-F3285DF61E4C" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Green Bubble" ID="1A330900-8C26-4023-BDE7-C6C494CFBC87" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Blue Bubble" ID="0436B30A-24D6-48E5-969F-E4193C021820" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Title Text" ID="37D68651-5093-4203-8180-61ECC94B2696" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>1.0 0.988006 0.945006</BackgroundColor>
+      <DefaultFont>Helvetica</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="iso-a4" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>
