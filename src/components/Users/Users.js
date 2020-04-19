@@ -7,8 +7,8 @@ import {UsersAPI} from '../../api/api'
 
 let Users = props => {
 
-    console.log('followingInProgress', props.followingInProgress)
     let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize)
+
     let pages = []
     for (let i = 1; i <= pagesCount; i++) {
         pages.push(i)
@@ -17,7 +17,7 @@ let Users = props => {
     return <div>
         <div>
             {pages.map(i => {
-                return <span className={props.currentPage === i && style.selectedPage}
+                return <span key={i} className={props.currentPage === i? style.selectedPage: ''}
                              onClick={() => props.onPageChanged(i)}>{i}</span>
             })}
             <div>current page {props.currentPage}</div>
