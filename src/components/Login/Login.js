@@ -14,7 +14,7 @@ const LoginForm = props => {
                    validate={[required]}/>
         </div>
         <div>
-            <Field component={Input} type="text" name={'password'} placeholder={'Password'}
+            <Field component={Input} type="password" name={'password'} placeholder={'Password'}
                    validate={[required]}/>
         </div>
         <div>
@@ -41,6 +41,7 @@ const Login = props => {
     }
 
     if (props.isAuth) {
+    // if (true) {
         return <Redirect to={'/profile'}/>
     }
 
@@ -56,4 +57,4 @@ const mapStateToProps = state => {
         isAuth: state.auth.isAuth
     }
 }
-export default connect(null, {login})(Login)
+export default connect(mapStateToProps, {login})(Login)

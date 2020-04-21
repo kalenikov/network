@@ -39,9 +39,6 @@ let mapStateToProps = (state) => ({
     isAuth: state.auth.isAuth,
 })
 
-// создаем сверху еще одну контейнерную компнонету, чтобы делать запросы на сервер
-// export default connect(mapStateToProps, {getUserProfile})(withRouter(AuthRedirectComponent))
-
 export default compose(
     connect(mapStateToProps, {getUserProfile, getStatus, updateStatus}),
     withRouter,

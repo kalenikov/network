@@ -8,6 +8,7 @@ import thunk from 'redux-thunk'
 import {reducer as formReducer} from 'redux-form'
 import appReducer from './app-reducer'
 import {createLogger} from 'redux-logger'
+import {composeWithDevTools} from 'redux-devtools-extension';
 
 const logger = createLogger({
     collapsed: () => (true),
@@ -26,10 +27,10 @@ let reducers = combineReducers({
     }
 )
 let store = createStore(reducers,
-    applyMiddleware(
+    composeWithDevTools(applyMiddleware(
         thunk,
         logger,
-    ))
+    )))
 
 window.store = store
 
