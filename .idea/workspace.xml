@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40070d2d-80b0-49eb-bd6c-3ca3b8226d6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusHooks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/profile-reducer.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hoc/withSuspense.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/object-helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,31 +49,82 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/AppData/Roaming/npm/node_modules/node/bin/node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\temp\js\network\src\redux" />
       <recent name="C:\temp\js\network\src\components\Profile\ProfileInfo" />
-      <recent name="C:\temp\js\network\src\components\common\FormsControls" />
-      <recent name="C:\temp\js\network\src\components\Header" />
-      <recent name="C:\temp\js\network\src\components\Profile" />
+      <recent name="C:\temp\js\network\src" />
+      <recent name="C:\temp\js\network\src\components\Users" />
+      <recent name="C:\temp\js\network\src\components\common\Paginator" />
+      <recent name="C:\temp\js\network\src\redux" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="C:\temp\js\network\src\redux\dialogs-reducer.js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\temp\js\network\src\components\common\Paginator" />
       <recent name="C:\temp\js\network\src\components\Profile\ProfileInfo" />
       <recent name="C:\temp\js\network\src\unused" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
+    <configuration name="Profile status component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.js" />
+      <test-names>
+        <test-name value="Profile status component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Profile status component.callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.js" />
+      <test-names>
+        <test-name value="Profile status component" />
+        <test-name value="callback should be called" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="new post should be add" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/redux/profile-reducer.test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="render without crashers" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="render without crashers" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="JS DEBUG" type="JavascriptDebugType" uri="http://localhost:3000/" useFirstLineBreakpoints="true">
       <method v="2" />
     </configuration>
@@ -79,11 +140,19 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.JS DEBUG" />
+      <item itemvalue="Jest.new post should be add" />
+      <item itemvalue="Jest.render without crashers" />
+      <item itemvalue="Jest.Profile status component" />
+      <item itemvalue="Jest.Profile status component.callback should be called" />
       <item itemvalue="npm.start" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="Jest.Profile status component.callback should be called" />
+        <item itemvalue="Jest.Profile status component" />
+        <item itemvalue="Jest.render without crashers" />
+        <item itemvalue="Jest.new post should be add" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +183,9 @@
       <workItem from="1587201299995" duration="531000" />
       <workItem from="1587202050246" duration="3606000" />
       <workItem from="1587280690945" duration="6448000" />
-      <workItem from="1587287916977" duration="19777000" />
+      <workItem from="1587287916977" duration="33136000" />
+      <workItem from="1587554846488" duration="736000" />
+      <workItem from="1587576944184" duration="3837000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586513876166</created>
@@ -200,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587320008014</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="jest">
+      <created>1587470179740</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587470179740</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +296,8 @@
     <MESSAGE value="hoc" />
     <MESSAGE value="profile status" />
     <MESSAGE value="selectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="selectors" />
+    <MESSAGE value="jest" />
+    <option name="LAST_COMMIT_MESSAGE" value="jest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="224" y="120" key="#Web_Browsers" timestamp="1586500779642">
@@ -237,28 +316,29 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="530" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1600.870@0.30.1600.870" timestamp="1586701203296" />
-    <state x="451" y="154" key="#new_post_should_be_add" timestamp="1587470114792">
+    <state x="451" y="154" key="#new_post_should_be_add" timestamp="1587473365522">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state x="451" y="154" key="#new_post_should_be_add/62.0.1538.900@62.0.1538.900" timestamp="1587470114792" />
+    <state x="451" y="154" key="#new_post_should_be_add/62.0.1538.900@62.0.1538.900" timestamp="1587473365522" />
     <state x="514" y="187" key="#start" timestamp="1586499860443">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="514" y="187" key="#start/0.30.1600.870@0.30.1600.870" timestamp="1586499860443" />
-    <state x="423" y="35" key="CommitChangelistDialog2" timestamp="1587320003722">
+    <state x="423" y="35" key="CommitChangelistDialog2" timestamp="1587628981013">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="376" y="64" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1586700994823" />
-    <state x="423" y="35" key="CommitChangelistDialog2/62.0.1538.900@62.0.1538.900" timestamp="1587320003722" />
+    <state x="423" y="35" key="CommitChangelistDialog2/62.0.1538.900@62.0.1538.900" timestamp="1587628981013" />
     <state width="540" height="466" key="DebuggerActiveHint" timestamp="1586507550355">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state width="540" height="466" key="DebuggerActiveHint/0.30.1600.870@0.30.1600.870" timestamp="1586507550355" />
-    <state x="412" y="216" key="FileChooserDialogImpl" timestamp="1586596966229">
-      <screen x="0" y="30" width="1600" height="870" />
+    <state x="458" y="192" key="FileChooserDialogImpl" timestamp="1587554777405">
+      <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="412" y="216" key="FileChooserDialogImpl/0.30.1600.870@0.30.1600.870" timestamp="1586596966229" />
-    <state width="1518" height="291" key="GridCell.Tab.0.bottom" timestamp="1587454504504">
+    <state x="458" y="192" key="FileChooserDialogImpl/62.0.1538.900@62.0.1538.900" timestamp="1587554777405" />
+    <state width="1518" height="231" key="GridCell.Tab.0.bottom" timestamp="1587578135766">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state width="1518" height="226" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1587287886955">
@@ -266,8 +346,8 @@
     </state>
     <state width="1518" height="226" key="GridCell.Tab.0.bottom.inPresentationMode/62.0.1538.900@62.0.1538.900" timestamp="1587287886955" />
     <state width="1580" height="226" key="GridCell.Tab.0.bottom/0.30.1600.870@0.30.1600.870" timestamp="1586763967602" />
-    <state width="1518" height="291" key="GridCell.Tab.0.bottom/62.0.1538.900@62.0.1538.900" timestamp="1587454504504" />
-    <state width="1518" height="291" key="GridCell.Tab.0.center" timestamp="1587454504504">
+    <state width="1518" height="231" key="GridCell.Tab.0.bottom/62.0.1538.900@62.0.1538.900" timestamp="1587578135766" />
+    <state width="1518" height="231" key="GridCell.Tab.0.center" timestamp="1587578135765">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state width="1518" height="226" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1587287886954">
@@ -275,8 +355,8 @@
     </state>
     <state width="1518" height="226" key="GridCell.Tab.0.center.inPresentationMode/62.0.1538.900@62.0.1538.900" timestamp="1587287886954" />
     <state width="1580" height="226" key="GridCell.Tab.0.center/0.30.1600.870@0.30.1600.870" timestamp="1586763967602" />
-    <state width="1518" height="291" key="GridCell.Tab.0.center/62.0.1538.900@62.0.1538.900" timestamp="1587454504504" />
-    <state width="1518" height="291" key="GridCell.Tab.0.left" timestamp="1587454504504">
+    <state width="1518" height="231" key="GridCell.Tab.0.center/62.0.1538.900@62.0.1538.900" timestamp="1587578135765" />
+    <state width="1518" height="231" key="GridCell.Tab.0.left" timestamp="1587578135765">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state width="1518" height="226" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1587287886954">
@@ -284,8 +364,8 @@
     </state>
     <state width="1518" height="226" key="GridCell.Tab.0.left.inPresentationMode/62.0.1538.900@62.0.1538.900" timestamp="1587287886954" />
     <state width="1580" height="226" key="GridCell.Tab.0.left/0.30.1600.870@0.30.1600.870" timestamp="1586763967602" />
-    <state width="1518" height="291" key="GridCell.Tab.0.left/62.0.1538.900@62.0.1538.900" timestamp="1587454504504" />
-    <state width="1518" height="291" key="GridCell.Tab.0.right" timestamp="1587454504504">
+    <state width="1518" height="231" key="GridCell.Tab.0.left/62.0.1538.900@62.0.1538.900" timestamp="1587578135764" />
+    <state width="1518" height="231" key="GridCell.Tab.0.right" timestamp="1587578135766">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state width="1518" height="226" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1587287886955">
@@ -293,7 +373,7 @@
     </state>
     <state width="1518" height="226" key="GridCell.Tab.0.right.inPresentationMode/62.0.1538.900@62.0.1538.900" timestamp="1587287886955" />
     <state width="1580" height="226" key="GridCell.Tab.0.right/0.30.1600.870@0.30.1600.870" timestamp="1586763967602" />
-    <state width="1518" height="291" key="GridCell.Tab.0.right/62.0.1538.900@62.0.1538.900" timestamp="1587454504504" />
+    <state width="1518" height="231" key="GridCell.Tab.0.right/62.0.1538.900@62.0.1538.900" timestamp="1587578135766" />
     <state width="1518" height="291" key="GridCell.Tab.1.bottom" timestamp="1587454504505">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
@@ -350,11 +430,11 @@
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state width="1518" height="291" key="GridCell.Tab.3.right/62.0.1538.900@62.0.1538.900" timestamp="1587454504506" />
-    <state x="147" y="98" key="SettingsEditor" timestamp="1587320116705">
+    <state x="147" y="98" key="SettingsEditor" timestamp="1587554905551">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="333" y="111" key="SettingsEditor/0.30.1600.870@0.30.1600.870" timestamp="1586611982120" />
-    <state x="147" y="98" key="SettingsEditor/62.0.1538.900@62.0.1538.900" timestamp="1587320116705" />
+    <state x="147" y="98" key="SettingsEditor/62.0.1538.900@62.0.1538.900" timestamp="1587554905551" />
     <state width="498" height="461" key="SwitcherDM" timestamp="1587295509420">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
@@ -377,21 +457,21 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="108" y="200" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.30.1600.870@0.30.1600.870" timestamp="1586501881798" />
-    <state x="393" y="174" width="640" height="491" key="find.popup" timestamp="1587399041555">
+    <state x="393" y="174" width="640" height="491" key="find.popup" timestamp="1587550802320">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="480" y="228" width="640" height="474" key="find.popup/0.30.1600.870@0.30.1600.870" timestamp="1586770189724" />
-    <state x="393" y="174" width="640" height="491" key="find.popup/62.0.1538.900@62.0.1538.900" timestamp="1587399041555" />
-    <state x="500" y="189" key="run.anything.popup" timestamp="1587399950596">
+    <state x="393" y="174" width="640" height="491" key="find.popup/62.0.1538.900@62.0.1538.900" timestamp="1587550802320" />
+    <state x="500" y="189" key="run.anything.popup" timestamp="1587554880358">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="456" y="213" key="run.anything.popup/0.30.1600.870@0.30.1600.870" timestamp="1586701836756" />
-    <state x="500" y="189" key="run.anything.popup/62.0.1538.900@62.0.1538.900" timestamp="1587399950596" />
-    <state x="363" y="125" width="672" height="702" key="search.everywhere.popup" timestamp="1587319645226">
+    <state x="500" y="189" key="run.anything.popup/62.0.1538.900@62.0.1538.900" timestamp="1587554880358" />
+    <state x="363" y="125" width="672" height="702" key="search.everywhere.popup" timestamp="1587545805471">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="463" y="212" width="672" height="678" key="search.everywhere.popup/0.30.1600.870@0.30.1600.870" timestamp="1586595274830" />
-    <state x="363" y="125" width="672" height="702" key="search.everywhere.popup/62.0.1538.900@62.0.1538.900" timestamp="1587319645226" />
+    <state x="363" y="125" width="672" height="702" key="search.everywhere.popup/62.0.1538.900@62.0.1538.900" timestamp="1587545805471" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -409,7 +489,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/redux/app-reducer.js</url>
           <line>11</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

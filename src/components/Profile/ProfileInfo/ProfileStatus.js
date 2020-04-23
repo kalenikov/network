@@ -18,7 +18,6 @@ class ProfileStatus extends React.Component {
     }
 
     deactivateEditMode = () => {
-        debugger
         this.setState({editMode: false})
         this.props.updateStatus(this.state.status)
     }
@@ -47,8 +46,6 @@ class ProfileStatus extends React.Component {
             </Fragment>
         )
     }
-
-
 }
 
 export default ProfileStatus
