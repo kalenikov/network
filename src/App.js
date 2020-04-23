@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar/Navbar";
-import {BrowserRouter, Route, withRouter} from "react-router-dom";
+import {BrowserRouter, HashRouter, Route, withRouter} from "react-router-dom";
 
 import UsersContainer from './components/Users/UsersContainer'
 import s from './App.css' //не удалять!
@@ -57,11 +57,12 @@ let AppContainer = compose(
 (App)
 
 let SamuraiJSApp = props => {
-    return <BrowserRouter basename={process.ENV.PUBLIC_URL}>
+    // return <HashRouter basename={process.ENV.PUBLIC_URL}>
+    return <HashRouter>
         <Provider store={store}>
             <AppContainer/>
         </Provider>
-    </BrowserRouter>
+    </HashRouter>
 }
 
 export default SamuraiJSApp

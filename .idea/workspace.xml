@@ -162,7 +162,7 @@
       <workItem from="1587280690945" duration="6448000" />
       <workItem from="1587287916977" duration="33136000" />
       <workItem from="1587554846488" duration="736000" />
-      <workItem from="1587576944184" duration="5426000" />
+      <workItem from="1587576944184" duration="5933000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586513876166</created>
@@ -276,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587629932044</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="homepage">
+      <created>1587630627387</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1587630627387</updated>
+    </task>
+    <task id="LOCAL-00018" summary="homepage">
+      <created>1587630734806</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1587630734806</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +322,8 @@
     <MESSAGE value="jest" />
     <MESSAGE value="lazy" />
     <MESSAGE value="gh-pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="gh-pages" />
+    <MESSAGE value="homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="homepage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="224" y="120" key="#Web_Browsers" timestamp="1586500779642">
@@ -335,11 +350,11 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="514" y="187" key="#start/0.30.1600.870@0.30.1600.870" timestamp="1586499860443" />
-    <state x="423" y="35" key="CommitChangelistDialog2" timestamp="1587630626269">
+    <state x="423" y="35" key="CommitChangelistDialog2" timestamp="1587630732489">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="376" y="64" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1586700994823" />
-    <state x="423" y="35" key="CommitChangelistDialog2/62.0.1538.900@62.0.1538.900" timestamp="1587630626269" />
+    <state x="423" y="35" key="CommitChangelistDialog2/62.0.1538.900@62.0.1538.900" timestamp="1587630732489" />
     <state width="540" height="466" key="DebuggerActiveHint" timestamp="1586507550355">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
