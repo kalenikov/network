@@ -36,7 +36,21 @@ export const profileAPI = {
     updateStatus(status) {
         const url = `profile/status/`
         return instance.put(url, {status})
-    }
+    },
+    savePhoto(file) {
+        const url = `profile/photo/`
+        const formData = new FormData()
+        formData.append('image', file)
+        return instance.put(url, formData, {
+            headers: {
+                'Content-Type': 'multipart/form-data'
+            }
+        })
+    },
+    saveProfile(profile) {
+        const url = `profile`
+        return instance.put(url, profile)
+    },
 
 }
 
@@ -45,12 +59,20 @@ export const AuthAPI = {
         const url = `auth/me`
         return instance.get(url)
     },
-    login(email, password, rememberMe = false){
+    login(email, password, rememberMe = false, captcha = null) {
         const url = `auth/login`
-        return instance.post(url, {email, password, rememberMe})
+        return instance.post(url, {email, password, rememberMe, captcha})
     },
-    logout(email, password, rememberMe = false){
+    logout(email, password, rememberMe = false) {
         const url = `auth/login`
         return instance.delete(url)
+    }
+}
+
+export const SecurityAPI = {
+
+    getCaptchaURL() {
+        const url = `security/get-captcha-url   `
+        return instance.get(url)
     }
 }

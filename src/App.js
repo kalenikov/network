@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar/Navbar";
-import {BrowserRouter, HashRouter, Route, withRouter} from "react-router-dom";
+import {BrowserRouter, HashRouter, Redirect, Route, Switch, withRouter} from "react-router-dom";
 
 import UsersContainer from './components/Users/UsersContainer'
 import s from './App.css' //не удалять!
@@ -20,8 +20,21 @@ const ProfileContainer = React.lazy(() => import('./components/Profile/ProfileCo
 
 class App extends React.Component {
 
+    catchAllUnhandledErrors = (promiceRejectionEvent)=>{
+
+    }
+
     componentDidMount() {
         this.props.initializeApp()
+
+        window.addEventListener("unhandledrejection", event => {
+            console.log(`UNHANDLED PROMISE REJECTION: ${event.reason}`);
+        });
+    }
+
+
+    componentWillUnmount() {
+        window.removeEventListener('unhandledrejection')
     }
 
     render() {
@@ -33,10 +46,14 @@ class App extends React.Component {
                 <HeaderContainer/>
                 <Navbar/>
                 <div className="app-wrapper-content">
-                    <Route path='/dialogs' render={withSuspense(DialogsContainer)}/>
-                    <Route path='/profile' render={withSuspense(ProfileContainer)}/>
-                    <Route path='/users' render={() => <UsersContainer/>}/>
-                    <Route path='/login' render={() => <Login/>}/>
+                    <Switch>
+                        <Route exact path='/' render={() => <Redirect to={'/profile'}/>}/>
+                        <Route path='/dialogs' render={withSuspense(DialogsContainer)}/>
+                        <Route path='/profile' render={withSuspense(ProfileContainer)}/>
+                        <Route path='/users' render={() => <UsersContainer/>}/>
+                        <Route path='/login' render={() => <Login/>}/>
+                        <Route path='*' render={() => <div>404 NOT FOUND</div>}/>
+                    </Switch>
                 </div>
             </div>
 
@@ -58,11 +75,11 @@ let AppContainer = compose(
 
 let SamuraiJSApp = props => {
     // return <HashRouter basename={process.ENV.PUBLIC_URL}>
-    return <HashRouter>
+    return <BrowserRouter>
         <Provider store={store}>
             <AppContainer/>
         </Provider>
-    </HashRouter>
+    </BrowserRouter>
 }
 
 export default SamuraiJSApp

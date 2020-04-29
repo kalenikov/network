@@ -4,6 +4,10 @@
   "private": true,
   "homepage": "https://kalenikov.github.io/network",
   "dependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
     "axios": "latest",
     "classnames": "^2.2.6",
     "react": "^16.13.1",
@@ -17,7 +21,8 @@
     "redux-form": "^8.3.5",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "reselect": "^4.0.0"
+    "reselect": "^4.0.0",
+    "typescript": "^3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
